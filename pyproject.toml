@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "django-base-accounts"
+version = "0.1.0"
+description = "A reusable Django app providing an abstract email-based user model"
+authors = [
+    {name = "geth",email = "altemode@mail.com"}
+]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2"
+
+[build-system]
+requires = ["poetry-core>=1.5.0"]
+build-backend = "poetry.core.masonry.api"
