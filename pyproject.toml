@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "django-base-accounts"
+version = "0.1.0"
+description = "A reusable Django app providing an abstract email-based user model"
+authors = ["geth, altemode@mail.com"]
+license = "MIT"
+packages = [{ include = "base_accounts" }]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+django = ">=6.0,<7.0"
+
+[build-system]
+requires = ["poetry-core>=1.5.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dev-dependencies]
+pytest = "^9.0"
+mypy = "^1.19"
+flake8 = "^7.3"
